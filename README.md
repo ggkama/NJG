@@ -32,12 +32,7 @@
  - 백엔드 개발
  - db 구축 및 연결
  - 프론트엔드 개발
- - db 구축 및 연결
- - 식재료 인식 모델 개발
  - 유사도 알고리즘 작성
-
-
- - db 구축 및 연결
 
 ## 3. 서비스 소개
 
@@ -76,15 +71,15 @@
 - Collaboration : Notion
 - 배포 : Docker & Nginx
 
-- ### DB
+- ### 데이터베이스 ( MySQL로 수정할것 )
 <img src="https://img.shields.io/badge/MariaDB-003545F?style=for-the-badge&logo=mariadb&logoColor=white">
 
-- ### Backend
+- ### 백엔드
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"><img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"><img src="https://img.shields.io/badge/intellijidea-ED2761?style=for-the-badge&logo=intellijidea&logoColor=white"><img src="https://img.shields.io/badge/keras-D00000?style=for-the-badge&logo=keras&logoColor=white"><img src="https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 
-- ### Frontend
+- ### 프론트엔드
 <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html&logoColor=white"><img src="https://img.shields.io/badge/css3-572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"><img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
 
-- ### 배포
+- ### 배포 ( 추후 수정 )
 <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 # NJG

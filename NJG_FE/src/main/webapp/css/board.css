@@ -1,0 +1,139 @@
+/* common */
+.flex > *:last-child {margin-left: 5%;}
+header {position: relative;z-index: 24;}
+section {width: 80%;margin: 0 auto;text-align: center;}
+
+#board {display: flex;align-items: flex-start;justify-content: flex-start;margin: 0 auto;padding:80px 0;}
+#board article.board_wrap {width: 90%;margin: 0 auto;}
+#board article.board_wrap .titWrap {position: relative;}
+#board article.board_wrap .titWrap h2 {font-size: 1.75rem;font-weight: 500;margin-bottom: 2rem;}
+
+/* board left */
+#board .boardLt {width: 200px;margin-right: 50px;text-align: left;}
+#board .boardLt .tit {font-size: 1.5rem;font-weight: 500;margin-bottom: 1.5rem;}
+#board .boardLt .tit i {display:none;}
+#board .boardLt ul li a {display: block;width: 100%;height: 45px;line-height: 33px;padding: 5px 10px;box-sizing: border-box;border: 1px solid #ccc;border-bottom: 0;font-size: 0.8rem;color: #222;position: relative;}
+#board .boardLt ul li a.active {background: #ff6f5f !important;color: #fff;border: 1px solid #ff6f5f;font-weight: 500;text-align: left;}
+#board .boardLt ul li a:hover {background: #eee;}
+#board .boardLt ul li a::after {content: ">";position: absolute;top: 50%;right: 10px;transform: translateY(-50%);}
+#board .boardLt ul li:last-child a {border-bottom: 1px solid #ccc;}
+
+
+/* board_list */
+#board .boardRt {width: 100%; }
+#board .boardRt .board_title {display: flex;align-items: flex-end;margin-bottom: 1.5rem;}
+#board .boardRt .board_title strong {font-size: 1.25rem;line-height: 1;}
+#board .boardRt .board_title p {font-size: .9rem;color: #999;margin-left: 5px;}
+#board .boardRt .board_list_wrap table {border-top: 2px solid #222;width: 100%;}
+#board .boardRt .board_list_wrap table thead tr {border-bottom: 1px solid #999;}
+#board .boardRt .board_list_wrap table thead tr td {padding: 15px 0;text-align: center;font-size: .8rem;}
+#board .boardRt .board_list_wrap table tbody tr td {text-align: center;padding: 10px 0;height: 30px;line-height: 30px;border-bottom: 1px solid #ccc;font-size: .8rem;color: #555;}
+#board .boardRt .board_list_wrap table tbody tr td.tit {text-align: left;padding-left: 10px;}
+#board .boardRt .board_list_wrap table tbody tr td.tit a {color: #555;}
+#board .bt_wrap {text-align: right;margin-top: 2rem;font-size: 0;}
+#board .bt_wrap a {border: 1px solid #ff6f5f;display: inline-block;padding: 10px 20px;border-radius: 5px;background: #fff;color: #ff6f5f;transition: .5s;margin-left: 5px;font-size: .9rem;}
+#board .bt_wrap a:hover {background: #fff;color: #ff6f5f;}
+
+
+/* board_write */
+#board .board_write {/* padding:0 10px; */}
+#board .board_write .input-group {display: flex;align-items: flex-start;justify-content: flex-start;padding: .5rem 0;}
+#board .board_write .input-group .input-tit {width: 15%;text-align: left;font-size: 0.9rem;font-weight: 500;padding: 10px 0;}
+#board .board_write .input-group input {width: 100%;height: 35px;line-height: 33px;border: 1px solid #ccc;padding: 10px;box-sizing: border-box;border-radius: 5px;font-size: 0.8rem;}
+#board .board_write .input-group input:focus,
+#board .board_write .input-group input:active {outline: 2px solid #ff6f5f !important;border-radius: 5px;}
+#board .board_write .input-group label {display: none;}
+#board .board_write .input-group .input-info {width: 85%;position: relative;}
+#board .board_write .input-group .input-info h3 {display: none;}
+#board .board_write .input-group .input-info input {position: relative;width: 100%;margin-right: 10px;}
+#board .board_write .input-group .input-info input:focus,
+#board .board_write .input-group .input-info input:active {outline: 0 !important;}
+#board .board_write .input-group .input-info input ~ .focus-border:before,
+#board .board_write .input-group .input-info input ~ .focus-border:after {content: "";position: absolute;top: 0;right: 0;width: 0;height: 2px;background-color: #ff6f5f;transition: 0.2s;transition-delay: 0.2s;}
+#board .board_write .input-group .input-info input ~ .focus-border:after {top: auto;bottom: 0;right: auto;left: 0;transition-delay: 0.6s;}
+#board .board_write .input-group .input-info input ~ .focus-border i:before,
+#board .board_write .input-group .input-info input ~ .focus-border i:after {content: "";position: absolute;top: 0;left: 0;width: 2px;height: 0;background-color: #ff6f5f;transition: 0.2s;}
+#board .board_write .input-group .input-info input ~ .focus-border i:after {left: auto;right: 0;top: auto;bottom: 0;transition-delay: 0.4s;}
+#board .board_write .input-group .input-info input:focus ~ .focus-border:before,
+#board .board_write .input-group .input-info input:focus ~ .focus-border:after {width: 100%;transition: 0.2s;transition-delay: 0.6s;}
+#board .board_write .input-group .input-info input:focus ~ .focus-border:after {transition-delay: 0.2s;}
+#board .board_write .input-group .input-info input:focus ~ .focus-border i:before,
+#board .board_write .input-group .input-info input:focus ~ .focus-border i:after {height: 100%;transition: 0.2s;}
+#board .board_write .input-group .input-info input:focus ~ .focus-border i:after {transition-delay: 0.4s;}
+
+
+/* board_write */
+.board_write {width: 100%;margin: 0 auto;/* background: #eee; */padding: 3rem 20px;border-top: 2px solid #222;overflow: hidden;}
+.board_write dl {display: flex;align-items: center;justify-content: flex-start;margin-bottom: 2rem;}
+.board_write dl dt {font-size: 1rem;color: #555;line-height: 1;width: 100px;text-align: left;}
+.board_write dl dd input {width: 100%;height: 30px;line-height: 28px;border: 1px solid #ccc;border-radius: 5px;padding: 3px 5px;box-sizing: border-box;}
+.board_write dl dd {width: 500px;}
+.board_write textarea {width: 100%;border-radius: 5px;border: 1px solid #ccc;min-height: 450px;padding: 10px;box-sizing: border-box;}
+.board_write dl dd input:focus,
+.board_write dl dd input:active {outline: 2px solid #ff6f5f; border:0;}
+.board_write textarea:focus,
+.board_write textarea:active {border: 0;}
+.board_write textarea:focus-visible {outline: 2px solid #ff6f5f;border: 0;}
+
+
+
+#selectBox {position: relative;overflow: hidden;}
+#selectBox::before {content: "";position: absolute;display: block;width: 100%;height: 5rem;top: -64px;z-index: 10;background: #fff;}
+#selectBox .cateName {position: relative;width: 100%; height: 35px;line-height: 35px;text-align: left;background: #fff;border: 1px solid #ccc;padding: 0 10px;box-sizing: border-box;border-radius: 5px;font-size: .8rem;z-index: 10;}
+#selectBox .cateName i {position: absolute;top: 50%; right: 10px;transform: translateY(-50%);}
+#selectBox .cateSel {position: absolute;width: 100%;border: 1px solid #ccc;border-top: 0;border-radius: 0 0 5px 5px;background: #fff;box-sizing: border-box;z-index: -1;top: -110px;transition:.5s;}
+#selectBox .cateSel li {text-align: left;width: 100%;height: 35px;line-height: 35px;padding-left: 10px;font-size: .8rem;border-top: 1px solid #eee;box-sizing: border-box;cursor: pointer;background: #fff;}
+#selectBox .cateSel li:hover {background: #eee;}
+#selectBox .cateSel li.active {color: #ff6f5f;}
+#selectBox.on {overflow: visible;}
+#selectBox.on .cateName {border-bottom: 0;border-radius: 5px 5px 0 0;}
+#selectBox.on .cateSel {border-top: 0;top: 35px;z-index:9;}
+
+
+#board .board_write .bt_wrap {margin-top: 3rem;font-size: 0;text-align: center;}
+#board .board_write .bt_wrap button,
+#board .board_write .bt_wrap a {display:inline-block;width: 200px;height: 40px;line-height: 38px;font-size: 1rem;cursor:pointer;transition:.5s;border-radius: 5px;vertical-align: middle;box-sizing: border-box;}
+#board .board_write .bt_wrap a {background: #fff;color: #ff6f5f;border: 1px solid #ff6f5f;margin-left: 1rem;padding: 0;}
+#board .board_write .bt_wrap a:hover {background: #ff6f5f;color: #fff;}
+#board .board_write .bt_wrap button {background: #ff6f5f;border: 1px solid #ff6f5f;color: #fff;}
+#board .board_write .bt_wrap button:hover {background: #fff;color: #ff6f5f;}
+
+
+
+
+
+/* board_detail */
+#board article.board_wrap .board_tit {text-align: center;margin-bottom: 3rem;}
+#board article.board_wrap .board_tit strong {font-size: 2rem;font-weight: 500;line-height: 1;}
+#board article.board_wrap .board_tit p {font-size: 1rem;color: #555;line-height: 1;margin-top: 1rem;}
+#board article.board_wrap .board_view_wrap {border-top: 2px solid #222;}
+#board article.board_wrap .board_view_wrap .tit dl {display: flex;height: 45px;line-height: 45px;border-bottom: 1px solid #fef5f0;}
+#board article.board_wrap .board_view_wrap .tit dl dt {width: 15%;background: #fef5f0;color: #222;}
+#board article.board_wrap .board_view_wrap .tit dl dd {width: 85%;text-align: left;padding: 0 15px;color: #222;}
+#board article.board_wrap .board_view_wrap .cont {padding: 40px 15px 80px;text-align: left;font-size: 1rem;border-bottom: 1px solid #222;}
+#board .bt_wrap a.on {background: #ff6f5f;color: #fff;}
+
+
+/* mobile */
+@media screen and (max-width:889px) {
+    #board_detail {padding:40px 0;}
+    #board {display: block;margin-top: -2px;width: 100%;position: relative;padding: 0;}
+    #board .boardLt {width: 100%;margin-right: 0;}
+    #board .boardLt .tit {width: 100%;height: 45px;line-height: 45px;text-align: center;border-bottom: 1px solid #eee;background: #fff;position: relative;margin-bottom: 3rem;z-index: 23;}
+    #board .boardLt .tit i {display:block;position: absolute;font-size: 0.7rem;margin-left: 5px;top: 50%;left:calc(50% + 30px);transform: translateY(-50%);}
+    #board .boardLt ul {width: 100%;position: absolute;top: -100%;transition: .5s;background: #fff;z-index: 22;}
+    #board .boardLt.on ul {top: 45px;}
+    #board .boardLt ul li a {width: 100%;}
+
+    #board .boardRt {width: 90%;margin: 0 auto 40px;}
+    #board .boardRt .board_title {display: block;text-align: center;line-height: 2;}
+
+    #board .board_write {box-sizing: border-box;}
+    #board .board_write .input-group {display: block;}
+    #board .board_write .input-group .input-info {width: 100%;}
+    #board .board_write .bt_wrap {display: flex;align-items:center; justify-content: center;}
+
+    #board .board_write .input-group:first-child .input-tit {position:relative; z-index:11;}
+    #selectBox::before {height: 7rem;top: -75px;}
+}
+

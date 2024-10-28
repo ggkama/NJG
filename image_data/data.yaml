@@ -1,0 +1,25 @@
+names:
+- potato
+- kimchi
+- tofu
+- onion
+- egg
+- sweet potato
+- enoki mushroom
+- cucumber
+- bread
+- King oyster mushroom
+- samgyeopsal
+- chicken
+- beef
+- carrot
+- green onion
+- fish cake
+- carding
+- shrimp
+- sausage
+- seaweed
+- cabbage
+nc: 21
+train: train.txt
+val: val.txt

@@ -1,0 +1,8 @@
+django
+ultralytics
+torch
+pandas
+tensorflow
+scikit-learn
+pymysql
+bs4

@@ -1,0 +1,18 @@
+# Directory
+image_data -> 재료 사진, 가중치 담겨있는 폴더
+NJG_BE -> Backend 폴더(Django)
+NJG_FE -> Frontend 폴더(Springboot)
+yolov5 -> yolov5 모델 폴더
+
+# .ipynb, .py
+crawling.ipynb -> 레시피 데이터 크롤링 파일
+model_train.ipynb -> 모델 학습 파일
+preprocessing.ipynb -> 레시피 데이터 전처리 파일
+text_processing -> 재료 사진 라벨링을 위한 파일
+
+# .txt
+Label_Info.txt -> 지정해준 라벨 정보
+
+# /NJG_BE
+mapping.txt -> 영어로 된 재료를 한글로 매핑하기 위한 텍스트 파일
+similarity.csv -> 음식별 재료 가중치 포함된 파일

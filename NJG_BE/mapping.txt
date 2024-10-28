@@ -1,0 +1,21 @@
+potatos-감자
+kimchis-김치
+tofus-두부
+onions-양파
+eggs-계란
+sweet potatos-고구마
+enoki mushrooms-팽이버섯
+cucumbers-오이
+breads-식빵
+King oyster mushrooms-새송이버섯
+samgyeopsals-돼지고기
+chickens-닭고기
+beefs-소고기
+carrots-당근
+green onions-대파
+fish cakes-어묵
+cardings-소면
+shrimps-새우
+sausages-소세지
+seaweeds-김
+cabbages-양배추

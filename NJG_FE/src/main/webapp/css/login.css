@@ -1,0 +1,162 @@
+section {width: 80%;margin: 0 auto;padding: 80px 0;text-align: center;}
+
+/* login */
+#login {width: 640px;margin: 0 auto;}
+#login .titWrap {position: relative;}
+#login .titWrap h2 {font-size: 1.75rem;font-weight: 500;margin-bottom: 2rem;}
+#login .container {width: 100%;margin: 0 auto;max-width:500px;}
+#login .container .input-group {position: relative;margin: 0 auto;margin-bottom: 0.5rem !important;}
+#login .container .input-group label {display:none;}
+#login .container .input-group input {width: 100%;height: 35px;line-height: 33px;border: 1px solid #ccc;padding: 10px;box-sizing: border-box;border-radius: 5px;font-size: 0.8rem;}
+#login .container .input-group input:focus,
+#login .container .input-group input:active {outline: 0 !important;}
+#login .container .input-group input ~ .focus-border:before,
+#login .container .input-group input ~ .focus-border:after {content: "";position: absolute;top: 0;right: 0;width: 0;height: 2px;background-color: #ff6f5f;transition: 0.2s;transition-delay: 0.2s;}
+#login .container .input-group input ~ .focus-border:after {top: auto;bottom: 0;right: auto;left: 0;transition-delay: 0.6s;}
+#login .container .input-group input ~ .focus-border i:before,
+#login .container .input-group input ~ .focus-border i:after {content: "";position: absolute;top: 0;left: 0;width: 2px;height: 0;background-color: #ff6f5f;transition: 0.2s;}
+#login .container .input-group input ~ .focus-border i:after {left: auto;right: 0;top: auto;bottom: 0;transition-delay: 0.4s;}
+#login .container .input-group input:focus ~ .focus-border:before,
+#login .container .input-group input:focus ~ .focus-border:after {width: 100%;transition: 0.2s;transition-delay: 0.6s;}
+#login .container .input-group input:focus ~ .focus-border:after {transition-delay: 0.2s;}
+#login .container .input-group input:focus ~ .focus-border i:before,
+#login .container .input-group input:focus ~ .focus-border i:after {height: 100%;transition: 0.2s;}
+#login .container .input-group input:focus ~ .focus-border i:after {transition-delay: 0.4s;}
+
+/* login findInfo */
+#login .findInfo {text-align: right;margin: 0 auto 1rem;max-width: 600px;}
+#login .findInfo a {text-decoration: none;color: #ff6f5f;font-size: 0.75rem;}
+#login .findInfo a + a::before {content: "|";display: inline-block;margin-right: 3px;}
+
+/* login btn */
+#login .container .btn {display: block;font-size:0.9rem;width: 100%;margin: 0 auto;height: 35px;line-height: 33px;border: 1px solid #ff6f5f;border-radius: 5px;color: #ff6f5f;box-sizing:border-box;transition: .5s;background: #fff;max-width: 500px;}
+#login .container .btn:hover {background: #ff6f5f;color: #fff;}
+
+#login .container button {width: 100%;margin: 0 auto;background: #ff6f5f;font-size:0.9rem;border: 1px solid #ff6f5f;color: #fff;height: 35px;line-height: 33px;margin-bottom: 0.5rem;cursor:pointer;border-radius: 5px;box-sizing: border-box;transition: .5s;max-width: 500px;margin-top: 1rem;}
+#login .container button:hover {background: #fff;border: 1px solid #ff6f5f;color: #ff6f5f;transition: .5s;}
+
+.line {width: 100%;margin: 50px 0;color:#555;display: flex;align-items: center;justify-content: center;text-align: center;font-size: .8rem;}
+.line::before {margin-right: 10px;}
+.line::after {margin-left: 10px;}
+.line::before,
+.line::after {content: "";display: block;width: 100%;height: 1px;background: #555;justify-content: center;align-items: center;}
+.kakao {display: block;width: 100%;background: #FEE500;border-radius: 5px;color: #361A1A;height: 35px;line-height: 35px;font-weight: 600;font-size: .9rem;overflow: hidden;}
+.kakao img {display: none;}
+
+
+/* register */
+.point {color: red;margin: 0 2px;}
+
+#register {width: 640px;margin: 0 auto;}
+#register .titWrap {position: relative;border-bottom: 1px solid #000;}
+#register .titWrap h2 {font-size: 1.75rem;font-weight: 500;margin-bottom: 2rem;}
+#register .titWrap div {text-align: right;font-size: 0.75rem;margin-bottom: 1rem;}
+#register .container {width: 100%;padding:0 10px;box-sizing: border-box;}
+#register .container .input-group {display: flex;align-items: center;justify-content: flex-start;padding: .5rem 0;}
+#register .container .input-group .input-tit {width: 25%;text-align: left;font-size: 0.9rem;font-weight: 500;}
+#register .container .input-group input {width: 100%;height: 35px;line-height: 33px;border: 1px solid #ccc;padding: 10px;box-sizing: border-box;border-radius: 5px;font-size: 0.8rem;}
+#register .container .input-group input:focus,
+#register .container .input-group input:active {outline: 2px solid #ff6f5f !important;border-radius: 5px;}
+#register .container .input-group label {display: none;}
+#register .container .input-group .input-info {position: relative;width: 60%;}
+#register .container .input-group .input-info input {position: relative;width: 100%;margin-right: 10px;}
+#register .container .input-group .input-info input:focus,
+#register .container .input-group .input-info input:active {outline: 0 !important;}
+#register .container .input-group .input-info input ~ .focus-border:before,
+#register .container .input-group .input-info input ~ .focus-border:after {content: "";position: absolute;top: 0;right: 0;width: 0;height: 2px;background-color: #ff6f5f;transition: 0.2s;transition-delay: 0.2s;}
+#register .container .input-group .input-info input ~ .focus-border:after {top: auto;bottom: 0;right: auto;left: 0;transition-delay: 0.6s;}
+#register .container .input-group .input-info input ~ .focus-border i:before,
+#register .container .input-group .input-info input ~ .focus-border i:after {content: "";position: absolute;top: 0;left: 0;width: 2px;height: 0;background-color: #ff6f5f;transition: 0.2s;}
+#register .container .input-group .input-info input ~ .focus-border i:after {left: auto;right: 0;top: auto;bottom: 0;transition-delay: 0.4s;}
+#register .container .input-group .input-info input:focus ~ .focus-border:before,
+#register .container .input-group .input-info input:focus ~ .focus-border:after {width: 100%;transition: 0.2s;transition-delay: 0.6s;}
+#register .container .input-group .input-info input:focus ~ .focus-border:after {transition-delay: 0.2s;}
+#register .container .input-group .input-info input:focus ~ .focus-border i:before,
+#register .container .input-group .input-info input:focus ~ .focus-border i:after {height: 100%;transition: 0.2s;}
+#register .container .input-group .input-info input:focus ~ .focus-border i:after {transition-delay: 0.4s;}
+#register .container .input-group .input-check {width: 15%; margin-left:10px;}
+
+#register .container .input-group .btn {width: 100%;height: 35px;line-height: 35px;border: 1px solid #ff6f5f;border-radius: 5px;color: #ff6f5f;font-size: 0.9rem;background: #fff;margin-top: 0;padding: 0;}
+#register .container .input-group .btn:hover {background: #ff6f5f;color: #fff;}
+
+/* address */
+#register .container .input-group.address .input-info {display: flex;align-items: center;}
+
+
+/* gender */
+#register .container .input-group.gender label {display: block;}
+#register .container .input-group.gender .input-info {display: flex;align-items: center;justify-content: flex-start;}
+#register .container .input-group.gender .input-info input {width: 24px;height: 24px;border-color: #eee;margin: 0;}
+#register .container .input-group.gender .input-info input + label {font-size:0.8rem; line-height: 1;margin: 0 15px 0 5px;vertical-align: middle;}
+#register .container .input-group.gender .input-info input[type="radio"] {appearance: none;border: max(2px, 0.1rem) solid #ccc;border-radius: 50%;transition: border 0.5s ease-in-out;padding: 0;box-sizing: border-box;}
+#register .container .input-group.gender .input-info input[type="radio"]:checked {border: 0.4em solid #ff6f5f;}
+#register .container .input-group.gender .input-info input[type="radio"]:focus-visible {outline-offset: max(2px, 0.1em);outline: max(2px, 0.1em) dotted #ff6f5f;}
+#register .container .input-group.gender .input-info input[type="radio"]:hover {box-shadow: 0 0 0 max(4px, 0.2em) #eee;cursor: pointer;}
+#register .container .input-group.gender .input-info input[type="radio"]:disabled {background-color: #eee;box-shadow: none;opacity: 0.7;cursor: not-allowed;}
+
+/* birth */
+#register .container .input-group.birth .input-info .birthWrap {display: flex;border: 1px solid #ccc;border-radius: 5px;align-items: center;color: #ccc;}
+#register .container .input-group.birth .input-info .birthWrap input {outline: 0 !important;border: 0;text-align: center;}
+
+/* register btn */
+#register .container button {width: 50%;background: #ff6f5f;border: 1px solid #ff6f5f;color: #fff;padding: 10px 0;margin-top: 40px;cursor:pointer;border-radius: 5px;box-sizing: border-box;transition: .5s;}
+#register .container button:hover {background: #fff;border: 1px solid #ff6f5f;color: #ff6f5f;transition: .5s;}
+
+
+/* find id/pw */
+.tab1,
+.tab2 {
+    display: none;
+}
+
+.tab {width: 640px;margin: 0 auto 1rem;padding-top: 20px;}
+.tab ul {font-size: 0;width: 100%;max-width: 500px;margin: 0 auto;}
+.tab ul li {display: inline-block;font-size: 0.9rem;padding: 10px 20px 8px;width: 50%;box-sizing: border-box;border-bottom: 2px solid #FF6F5F;cursor: pointer;border-radius: 5px 5px 0 0;}
+.tab ul li:hover {background: #eee;}
+.tab ul li.active {background: #ff6f5f;color: #fff;margin-top: 0px;}
+.tabContent {display:none;}
+
+
+@media screen and (min-width:890px) and (max-width:1020px) {
+    section {padding:40px 0;}
+    #register .container .input-group.gender .input-info input[type="radio"]:checked {
+        border:0.5rem solid #ff6f5f;
+    }
+}
+@media screen and (min-width:420px) and (max-width: 889px) {
+    section {width:85%;padding: 40px 0;}
+    #login,
+    #register {width: 100%;}
+    #login .container {width: 75%;min-width: 300px;}
+
+    #register .container {padding:0;}
+    #register .container .input-group {display:block;}
+    #register .container .input-group > div {width: 100% !important;margin: 1rem 0 !important;}
+    #register .container .input-group.gender .input-info input[type="radio"]:checked {
+        border:0.55rem solid #ff6f5f;
+    }
+
+    .tab {width: 75%;margin: 0 auto 2rem;}
+
+}
+@media screen and (max-width:419px) {
+    section {width:90%; padding: 40px 0 }
+    #login,
+    #register {width: 100%;}
+    #login .container {width: 80%;}
+
+    #register .container {padding:0;}
+    #register .container .input-group {display:block;}
+    #register .container .input-group > div {width: 100% !important;margin: 1rem 0 !important;}
+
+    #register .container .input-group.gender .input-info input[type="radio"]:checked {
+        border:0.6rem solid #ff6f5f;
+    }
+
+
+    .tab {width: 80%;margin: 0 auto 2rem;}
+
+}
+
+
+

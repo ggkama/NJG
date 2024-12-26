@@ -71,7 +71,7 @@
 - Collaboration : Notion
 - 배포 : Docker & Nginx
 
-- ### 데이터베이스 ( MySQL로 수정할것 )
+- ### 데이터베이스 
 <img src="https://img.shields.io/badge/MariaDB-003545F?style=for-the-badge&logo=mariadb&logoColor=white">
 
 - ### 백엔드
